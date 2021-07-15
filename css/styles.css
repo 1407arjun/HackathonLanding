@@ -1,0 +1,176 @@
+#header {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    background-color: #1c1e35;
+    color: white;
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 8rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 3rem;
+    margin: 0;
+    color: #37b4cc;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+.time-div {
+    display: inline-block;
+}
+
+.time {
+    margin: 1rem auto 1rem;
+}
+
+.timehh {
+    margin: -1rem auto 0;
+    text-align: center;
+
+}
+
+#tabs {
+    display: inline-block;
+    margin: 1rem;
+}
+
+#tabs:hover {
+    color: #37b4cc;
+}
+
+#logo {
+    margin: 1rem 1.5rem;
+}
+
+#discord {
+    margin: 1rem;
+    margin-bottom: -0.5rem;
+}
+
+#menu {
+    float: right;
+    margin: 0.5rem 1rem;
+    text-align: center;
+}
+
+#main {
+    clear: both;
+    box-sizing: border-box;
+    background-image: url(../raw/placeholderlogo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 2rem 4rem;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1e35;
+    text-align: left;
+}
+
+.btn {
+    display: block;
+    margin: 4rem auto 1rem;
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: 'Comfortaa', cursive;
+    color: #1c1e35;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #37b4cc;
+    text-decoration: none;
+}
+
+#about-div {
+    display: inline-block;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: #1c1e35;
+    width: 50%;
+    border-radius: 0.75rem;
+    box-shadow: 4px 4px 8px black;
+}
+
+#track-div {
+    margin: auto;
+    float: right;
+    padding: 1rem;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+.tracks {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 4px 4px 8px black;
+    color: #1c1e35;
+    margin: 1rem;
+}
+
+.track-image{
+    background-color: #1c1e35;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.track {
+    margin: 0.5rem;
+}
+
+.tracks:hover {
+    opacity: 0.8;
+}
+
+#footer {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    clear: both;
+    padding: 2rem 2rem 0.5rem;
+    line-height: 1.75;
+    background-color: #1c1e35;
+    color: white;
+    z-index: 1;
+}
+
+#address {
+    display: inline-block;
+    width: 40%;
+}
+
+#social {
+    float: right;
+    text-align: right;
+    width: 40%;
+}
+
+.social:hover {
+    color: #37b4cc;
+}
